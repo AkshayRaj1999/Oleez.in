@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --main-color:#741c0d ;
+  --heading-color:#902514;
+  --content-color:#3895d3;
+  --secondary-color:#f3c434;
+}
+body{
+  font-family: system-ui;
+}
+section{
+  padding: 50px 0px;
+}
+link{
+  text-decoration: none;
+  color: unset;
+}
+link:hover{
+  color: unset;
+}
+ul{
+  list-style: none;
+}
+.container{
+  width: 1340px;
+  padding: 0px 15px;
+  margin: auto; 
+}
+.section_title{
+  color: var(--main-color);
+  font-weight: 700;
+}
+.btn-playstore-1{
+  
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: #fff;
+  background-color: var(--heading-color);
+  height: 48px;
+}
+.btn-playstore-2{
+
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: var(--main-color);
+  box-shadow: inset 0 0 0 2px var(--main-color);
+  background-color: transparent;
+  height: 48px;
+}
+.btn-playstore-2:hover
+{
+  box-shadow: inset 0 0 0 2em var(--main-color);
+  color: #fff;
+}
+.btn-playstore-1:hover
+{
+  box-shadow: inset 0 0 0 2em #fff;
+  color: var(--main-color);
+}
+a{
+  color: #231F20;
+  text-decoration: none;
+}

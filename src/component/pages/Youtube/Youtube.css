@@ -1,0 +1,14 @@
+
+.yt-container{
+    display: flex;
+    column-gap: 100px;
+    justify-content: center;
+    padding-left:90px;
+    align-items: center;
+}
+.yt-header h2{
+    color: var(--main-color);
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+}
